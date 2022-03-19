@@ -1,3 +1,12 @@
+.equipment {
+    
+    margin-left: 300px;
+    margin-right: 420px;
+    background-color: white;
+    padding: 20px; 
+
+}
+
 .budget-tracker {
     border-collapse: collapse;
     min-width: 750px;
@@ -56,4 +65,21 @@
 .controls,
 .summary {
     text-align: right;
+}
+
+
+button {
+	margin-left: 40%;
+	padding:10px;
+	width:100px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	border-radius: 5px;
+	font-size:15px;
+	font-weight:bold;
+	background:#1b2fe2;
+       	color:whitesmoke;
+
+
 }

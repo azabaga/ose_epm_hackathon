@@ -16,10 +16,10 @@ export default class BudgetTracker {
             <table class="budget-tracker">
                 <thead>
                     <tr>
-                        <th>Date</th>
-                        <th>Description</th>
-                        <th>Type</th>
-                        <th>Amount</th>
+                        <th>Datum</th>
+                        <th>Oprema</th>
+                        <th>Dostupnost</th>
+                        <th>Količina</th>
                         <th></th>
                     </tr>
                 </thead>
@@ -27,18 +27,11 @@ export default class BudgetTracker {
                 <tbody>
                     <tr>
                         <td colspan="5" class="controls">
-                            <button type="button" class="new-entry">New Entry</button>
+                            <button type="button" class="new-entry">Dodaj</button>
                         </td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="5" class="summary">
-                            <strong>Total:</strong>
-                            <span class="total">0</span>
-                        </td>
-                    </tr>
-                </tfoot>
+               
             </table>
         `;
     }
@@ -50,12 +43,12 @@ export default class BudgetTracker {
                     <input class="input input-date" type="date">
                 </td>
                 <td>
-                    <input class="input input-description" type="text" placeholder="Add a Description (e.g. wages, bills, etc.)">
+                    <input class="input input-description" type="text" placeholder="Tip opreme...">
                 </td>
                 <td>
                     <select class="input input-type">
-                        <option value="available">Available</option>
-                        <option value="taken">Taken</option>
+                        <option value="available">Slobodno</option>
+                        <option value="taken">Zauzeto</option>
                     </select>
                 </td>
                 <td>
