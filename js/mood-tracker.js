@@ -101,17 +101,7 @@ for(let i=1; i<=thisMonthsNumberOfDays; i++){
 	moodBlocks.appendChild(gridContainer)
 }
 // Board legends
-let percentage0 = document.getElementById('percentage-0').textContent = (currentMoodArray[0]/countMood*100).toFixed(0)+'%' 
-let percentage1 = document.getElementById('percentage-1').textContent = (currentMoodArray[1]/countMood*100).toFixed(0)+'%' 
-let percentage2 = document.getElementById('percentage-2').textContent = (currentMoodArray[2]/countMood*100).toFixed(0)+'%' 
-let percentage3 = document.getElementById('percentage-3').textContent = (currentMoodArray[3]/countMood*100).toFixed(0)+'%' 
-let percentage4 = document.getElementById('percentage-4').textContent = (currentMoodArray[4]/countMood*100).toFixed(0)+'%' 
 
-let ratio0 = document.getElementById('ratio-0').textContent = '(' + currentMoodArray[0] + ' / ' + countMood + ')'
-let ratio1 = document.getElementById('ratio-1').textContent = '(' + currentMoodArray[1] + ' / ' + countMood + ')'
-let ratio2 = document.getElementById('ratio-2').textContent = '(' + currentMoodArray[2] + ' / ' + countMood + ')'
-let ratio3 = document.getElementById('ratio-3').textContent = '(' + currentMoodArray[3] + ' / ' + countMood + ')'
-let ratio4 = document.getElementById('ratio-4').textContent = '(' + currentMoodArray[4] + ' / ' + countMood + ')'
 
 
 // Cycle through MoodsBlocks
