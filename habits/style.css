@@ -19,18 +19,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: whitesmoke;
+  background: url("../img/hero-bg.jpg");
 }
 
 .container {
-  padding: 20px;
+  padding: 100px;
   background-color: whitesmoke;
   border-radius: 15px;
 }
 
-h2 {
+h1 {
+  margin-bottom: 20px;
   text-align: center;
-  font-weight: 400;
+  font-weight:bold;
+  font-family: "Poppins", sans-serif
 }
 
 .habits {
@@ -83,8 +85,9 @@ h2 {
   border-radius: 10px;
 }
 
+
 .add-habit {
-  width: 100%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,12 +96,15 @@ h2 {
   border-bottom: 2px solid black;
 }
 
+
 .add-habit input {
-  padding: 10px;
+  padding: 20px;
   margin: 5px;
   outline: 0;
   border: 0;
-  border-radius: 100px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  
 }
 
 .add-habit select {
@@ -106,10 +112,21 @@ h2 {
   border: none;
 }
 
+.submit:hover {
+  background: black;
+  color: white;
+}
 .frequency {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
+  margin-left: 200px;
+  margin-bottom: 20px;
 }
+
+#timeframe {
+  margin-right: 200px;
+}
+

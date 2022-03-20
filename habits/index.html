@@ -8,33 +8,33 @@
   </head>
   <body>
     <div class="container">
-      <h2>HABITS</h2>
+      <h1>MOJE NAVIKE</h1>
       <p></p>
       <form class="add-habit">
         <input
           class="habit"
           type="text"
           name="habit"
-          placeholder="Enter Habit Name"
+          placeholder="Unesi naviku..."
           required
         />
         <input
           type="number"
           name="reps"
-          placeholder="# of Repetitions"
+          placeholder="Broj ponavljanja"
           min="1"
           required
         />
         <div class="frequency">
-          <label for="timeframe">Frequency: </label>
+          <label for="timeframe">Periodičnost: </label>
           <select name="timeframe" id="timeframe">
-            <option value="Daily">Daily</option>
-            <option value="Weekly">Weekly</option>
-            <option value="Monthly">Monthly</option>
-            <option value="Yearly">Yearly</option>
+            <option value="Daily">Dnevno</option>
+            <option value="Weekly">Sedmično</option>
+            <option value="Monthly">Mjesečno</option>
+            <option value="Yearly">Godišnje</option>
           </select>
         </div>
-        <input type="submit" value="+ Add Habit" />
+        <input class = "submit" type="submit" value="+ Dodaj naviku" />
       </form>
 
       <ul class="habits">
