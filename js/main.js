@@ -147,22 +147,9 @@
   /**
    * Initiate glightbox 
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
 
 
-  /**
-   * Animation on scroll
-   */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
+})()
 
       let modalBtns = [...document.querySelectorAll(".button")];
       modalBtns.forEach(function (btn) {
@@ -178,11 +165,6 @@
           modal.style.display = "none";
         };
       });
-      // window.onclick = function (event) {
-      //   if (event.target.className === "") {
-      //     event.target.style.display = "";
-      //   }
-      // };
+     
     
 
-})()

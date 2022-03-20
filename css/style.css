@@ -400,7 +400,7 @@ button.button {
   outline: none;
   border-right: none;
   border-left: none;
-  border-bottom: #02274a 1px solid;
+  border-bottom: none;
   padding: 0 0 3px 0;
   font-size: 16px;
   cursor: pointer;
